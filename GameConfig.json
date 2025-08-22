@@ -1,0 +1,210 @@
+{
+  "gameSettings": {
+    "maxPlayers": 50,
+    "maxBots": 30,
+    "gameTime": 1200,
+    "safeZoneSettings": {
+      "initialRadius": 500,
+      "finalRadius": 50,
+      "shrinkDuration": 300,
+      "damagePerSecond": 5
+    }
+  },
+  "weapons": [
+    {
+      "type": "Pistol",
+      "name": "M9 Pistol",
+      "damage": 25,
+      "fireRate": 3,
+      "maxAmmo": 15,
+      "reloadTime": 2.0,
+      "range": 30,
+      "isAutomatic": false,
+      "rarity": "Common"
+    },
+    {
+      "type": "SMG",
+      "name": "MP5 SMG",
+      "damage": 18,
+      "fireRate": 8,
+      "maxAmmo": 30,
+      "reloadTime": 2.5,
+      "range": 25,
+      "isAutomatic": true,
+      "rarity": "Common"
+    },
+    {
+      "type": "Rifle",
+      "name": "AK-47",
+      "damage": 35,
+      "fireRate": 6,
+      "maxAmmo": 30,
+      "reloadTime": 3.0,
+      "range": 60,
+      "isAutomatic": true,
+      "rarity": "Rare"
+    },
+    {
+      "type": "Sniper",
+      "name": "AWM Sniper",
+      "damage": 80,
+      "fireRate": 1,
+      "maxAmmo": 5,
+      "reloadTime": 4.0,
+      "range": 150,
+      "isAutomatic": false,
+      "rarity": "Epic"
+    },
+    {
+      "type": "Grenade",
+      "name": "Frag Grenade",
+      "damage": 100,
+      "fireRate": 0.5,
+      "maxAmmo": 1,
+      "reloadTime": 0,
+      "range": 15,
+      "isAutomatic": false,
+      "rarity": "Rare"
+    },
+    {
+      "type": "Molotov",
+      "name": "Molotov Cocktail",
+      "damage": 20,
+      "fireRate": 0.5,
+      "maxAmmo": 1,
+      "reloadTime": 0,
+      "range": 12,
+      "isAutomatic": false,
+      "rarity": "Common"
+    },
+    {
+      "type": "Melee",
+      "name": "Combat Knife",
+      "damage": 50,
+      "fireRate": 2,
+      "maxAmmo": 0,
+      "reloadTime": 0,
+      "range": 2,
+      "isAutomatic": false,
+      "rarity": "Common"
+    }
+  ],
+  "lootTables": {
+    "common": [
+      {
+        "itemType": "Ammo",
+        "itemName": "Pistol Ammo",
+        "spawnChance": 30,
+        "minQuantity": 15,
+        "maxQuantity": 30
+      },
+      {
+        "itemType": "Health",
+        "itemName": "Bandage",
+        "spawnChance": 25,
+        "minQuantity": 1,
+        "maxQuantity": 3
+      },
+      {
+        "itemType": "Weapon",
+        "itemName": "Pistol",
+        "spawnChance": 20,
+        "minQuantity": 1,
+        "maxQuantity": 1
+      }
+    ],
+    "rare": [
+      {
+        "itemType": "Weapon",
+        "itemName": "SMG",
+        "spawnChance": 25,
+        "minQuantity": 1,
+        "maxQuantity": 1
+      },
+      {
+        "itemType": "Weapon",
+        "itemName": "Rifle",
+        "spawnChance": 20,
+        "minQuantity": 1,
+        "maxQuantity": 1
+      },
+      {
+        "itemType": "Health",
+        "itemName": "Med Kit",
+        "spawnChance": 15,
+        "minQuantity": 1,
+        "maxQuantity": 2
+      }
+    ],
+    "epic": [
+      {
+        "itemType": "Weapon",
+        "itemName": "Sniper",
+        "spawnChance": 10,
+        "minQuantity": 1,
+        "maxQuantity": 1
+      },
+      {
+        "itemType": "Armor",
+        "itemName": "Level 3 Vest",
+        "spawnChance": 8,
+        "minQuantity": 1,
+        "maxQuantity": 1
+      }
+    ]
+  },
+  "mapSettings": {
+    "mapSize": {
+      "width": 1000,
+      "height": 1000
+    },
+    "zones": [
+      {
+        "name": "Forest",
+        "spawnWeight": 30,
+        "lootDensity": "Medium"
+      },
+      {
+        "name": "City",
+        "spawnWeight": 25,
+        "lootDensity": "High"
+      },
+      {
+        "name": "Desert",
+        "spawnWeight": 20,
+        "lootDensity": "Low"
+      },
+      {
+        "name": "Hills",
+        "spawnWeight": 25,
+        "lootDensity": "Medium"
+      }
+    ]
+  },
+  "playerSettings": {
+    "maxHealth": 100,
+    "walkSpeed": 5,
+    "runSpeed": 8,
+    "jumpHeight": 2,
+    "maxInventorySlots": 8
+  },
+  "botSettings": {
+    "difficultyLevels": {
+      "Easy": {
+        "accuracy": 0.5,
+        "reactionTime": 1.0,
+        "detectionRange": 10
+      },
+      "Medium": {
+        "accuracy": 0.7,
+        "reactionTime": 0.7,
+        "detectionRange": 15
+      },
+      "Hard": {
+        "accuracy": 0.9,
+        "reactionTime": 0.3,
+        "detectionRange": 20
+      }
+    }
+  }
+}
