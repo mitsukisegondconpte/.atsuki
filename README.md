@@ -238,12 +238,12 @@ Entrer IP directement : `192.168.1.XXX`
 3. **"Crash au lancement"** : Vérifier OBB installé correctement
 
 ### Contact
-- GitHub Issues pour bugs
-- Discord : TsukiGames#1234
-- Email : support@tsukigames.com
+- WhatsApp : +509 3684-6133
+- Telegram :@ jeff_mitsuki
+- Email : jeffmitsuki453@gmail.com
 
 ---
 
 **Version** : 1.0  
 **Date** : 2025  
-**Développé avec** : Unity 2021.3 LTS + Mirror Networking
+**Développé avec** : 🌙tsuki
